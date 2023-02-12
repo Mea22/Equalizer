@@ -1,0 +1,315 @@
+*{
+    margin: 0;
+}
+body{
+    font-family: 'IBM Plex Sans', sans-serif;
+    background-color: #FCFAF9;
+    color: #191826;
+    background-image: url(./photos/bg-main-mobile.png);
+    background-repeat: no-repeat;
+    background-position: top -39% right 90%;
+}
+header{
+    padding: 40px 24px 68px;
+}
+.heading{
+    padding-top: 64px;
+}
+.heading img{
+    display: none;
+}
+.heading h1{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    margin-bottom: 20px;
+}
+.heading p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.phone-img{
+    width: 208.97px;
+    margin-bottom: -330px;
+    z-index: 1;
+}
+.pattern-2{
+    margin: 0px 47px;
+    width: 280px;
+}
+.content-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #191826;
+    color: #FCFAF9;
+    border-radius: 12px;
+}
+.info{
+    background-color: #FA7453;
+    border-radius: 12px;
+    margin-top: -43px;
+}
+.info-container{
+ margin: 48px 37px;
+}
+.info-container h2{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    margin-bottom: 12px;
+}
+.info-p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    width: 302px;
+    margin-bottom: 36px;
+}
+.price {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 32px;
+}
+.number{
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 52px;
+    margin-right: 16px;
+}
+.price span{
+    font-size: 20px;
+    font-weight: 400;
+}
+.ios,
+.android{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 296px;
+    height: 61px;
+    background-color:#191826;
+    color: #FCFAF9;
+    border-radius: 12px;
+    text-decoration: none;
+}
+.android{
+    background-color: #FCFAF9;
+    color: #191826;
+    margin-top: 16px;
+}
+.ios p,
+.android p{
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
+    margin-left: 11px;
+}
+footer{
+    margin: 64px 24px 80px;
+}
+footer p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    width: 302px;
+    margin: 32px 0px 64px 0px;
+}
+.contact{
+    display: flex;
+    gap: 20px
+}
+.contact i{
+    color: #191826;
+}
+@media only screen and (min-width:768px) {
+    
+    body{
+        
+        background-image: url(./photos/bg-main-tablet.png);
+        background-repeat: no-repeat;
+        background-position: top -42% right 21%;
+    }
+    header{
+        padding: 62px 39px 111px;
+        position: relative;
+        overflow: hidden;
+    
+    }
+    .heading{
+        display: flex;
+        position: relative;
+        padding-top: 95px;
+    }
+    .heading h1{
+        font-size: 64px;
+        line-height: 64px;
+        margin-bottom: 28px;
+        width: 520px;
+    }
+    .heading p{
+        width: 514px;
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .heading img{
+        display: flex;
+        position: absolute;
+        margin-top: -33%;
+        margin-left: 72%;
+        width: 266.67px;
+    }
+    main{
+        display: flex;
+        align-items: flex-start;
+        padding: 0px 39px 183px 33px;
+        overflow: hidden;
+    }
+    .content-container{
+        width: 696px;
+        height: 600px;
+    }
+    .phone-img{
+        width: 270.21px;
+        margin-left: 64px;
+        margin-bottom: -413px;
+    }
+    .pattern-2{
+        margin-left: 87px;
+    }
+    .info{
+        width: 399px;
+        z-index: 2;
+        margin-top: -274px;
+        margin-left: 178px;
+    }
+    footer{
+        margin: 0px 39px 85px 33px;
+    }
+    .contact-info{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 79px;
+        margin-top: 32px;
+    }
+    .contact-info p{
+        margin: 0px;
+        width: 335px;
+    }
+}
+@media only screen and (min-width: 1440px){
+    body{
+        
+        background-image: url(./photos/bg-main-desktop.png);
+        background-repeat: no-repeat;
+        background-position: top 176% right 31%;
+    }
+
+    header{
+        padding: 62px 165px 127px;
+        position: relative;
+        overflow: hidden;
+    }
+    .heading{
+        display: flex;
+        position: relative;
+        padding-top: 127px;
+    }
+    .heading h1{
+        font-size: 88px;
+        line-height: 88px;
+        margin-bottom: 40px;
+        width: 1015px;
+    }
+    .heading p{
+        width: 825px;
+        font-size: 20px;
+        line-height: 34px;
+    }
+    .heading img{
+        display: flex;
+        position: absolute;
+        margin-top: -24.5%;
+        margin-left: 86.7%;
+        width: 312px;
+    }
+    main{
+        padding: 0px 165px 202px ;
+    }
+    .content-container{
+        width: 1110px;
+        height: 600px;
+    }
+    .phone-img{
+        width: 312px;
+        margin-left: 94px;
+        margin-bottom: -425px;
+    }
+    .pattern-2{
+        width: 312px;
+        margin-left: -95px;
+        margin-top: -42px;
+    }
+    .info{
+        width: 446px;
+        z-index: 2;
+        margin-top: -340px;
+        margin-right: -277px;
+    }
+    .info-container{
+        margin: 58px 59px 48px 54px;
+    }
+   .info-container h2{
+        font-size: 40px;
+        line-height: 52px;
+        margin-bottom: 22px;
+    }
+    .info-p{
+        font-size: 20px;
+        line-height: 34px;
+        width: 333px;
+        margin-bottom: 39px;
+    }
+    .price {
+        margin-bottom: 46px;
+    }
+    .platforms{
+        display: flex;
+        flex-direction: column;
+    }
+    .ios:hover{
+        background-color:#66E2DC ;
+    }
+    .android:hover{
+        background-color: #FFB964;
+    }
+    footer{
+        display: flex;
+        align-items: center;
+        margin: 0px 165px 91px;
+    }
+    .contact-info{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 79px;
+        
+    }
+    .contact-info p{
+        width: 366px;
+        margin: 0px 359px 0px 138px
+    }
+    .contact i:hover{
+        color: #FA7453;
+    }
+}
